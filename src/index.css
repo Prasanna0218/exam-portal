@@ -20,11 +20,24 @@
 
 :root{
   --primary-color:#ffff;
-  --secondary-color:#f03f38;
+  --secondary-color:#b30000;
 }
 
 .color-primary{
   color: var(--secondary-color);
+}
+
+
+.bg-primary{
+  background-color: var(--secondary-color);
+}
+
+.signInbtn{
+  background-color:#ec644e ;
+}
+
+.border-theme{
+  border-color: var(--secondary-color);
 }
 
 .primary-btn{

@@ -40,7 +40,7 @@ const SignInForm = () => {
                     <span className='text-[14px] mt-1 '>Resend password !</span>
                 </div>
                 <div className='text-center'>
-                    <Button value={"Submit"} width={"220px"} buttonType={"primary"}/>
+                    <Button value={"Submit"} bgColor={"bg-primary"} width={"220px"} buttonType={"primary"} color={"white"}/>
                 </div>
             </form>
         </div>
